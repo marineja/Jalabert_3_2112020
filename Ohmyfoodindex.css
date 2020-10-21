@@ -1,3 +1,25 @@
 @font-face{
 	
 }
+body, html{
+	margin: 0 auto;
+	padding: 0;
+	width: 360px;
+	height: 1640px;
+	box-shadow: 0px 0px 10px black
+
+}
+.page{
+	display: flex;
+	width: 100%;
+	height: 100%;}
+
+.logo>img{
+	height: 100%;
+	width: 50%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+	
+}
