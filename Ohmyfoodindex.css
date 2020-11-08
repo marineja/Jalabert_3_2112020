@@ -1,5 +1,6 @@
 @font-face{
-	
+	font-family: "Roboto";
+  	src: url("Roboto-Regular.ttf");
 }
 body, html{
 	margin: 0;
@@ -23,7 +24,36 @@ body, html{
 	
 }
 
+.GPS{
+	background-color: #E6E9EE;
+	box-shadow: inset 5px 15px 5px -10px gray; 
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-weight: bold;
+	
+}
 
+
+
+.blocreservation{
+	background-color: #F5F5F5; 
+	display: flex;
+	flex-direction: column;
+	
+	align-items: center;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.reservegras{
+	font-weight: bold;
+	font-size: 30px;
+
+}
+.decouverte{
+	text-align: center;
+	font-size: 25px;
+}
 .restaurantLink{
 	width: 90%;
 	height: 300px;
@@ -33,6 +63,22 @@ body, html{
 	display: block;
 	position: relative;
 	text-decoration: none;
+
+}
+.titrefonctionnement{
+	font-weight: bold;
+	padding-left: 20px;
+	
+}
+.blocfonctionnement{
+	border-radius: 20px;
+	box-shadow: 0 0 5px silver;
+	display: flex;
+	flex-direction: row;
+
+}
+.textblocfonctionnement{
+	font-weight: bold;
 }
 .restaurantLink > img{
 	width: 100%;
@@ -78,6 +124,8 @@ input{
 }
 footer{
 	width: 100%;
+	background-color: black;
+	color: white;
 
 }
 footer>img {
