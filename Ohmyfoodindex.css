@@ -92,13 +92,21 @@ body, html{
 	position: relative;
 
 }
+.textblocfonctionnement > div {
+	position: absolute;
+	left: 12%;
+}
 
 .textblocfonctionnement{
 	font-weight: bold;
-	margin-left: 10%;
+	position: relative;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
 
 }
-.textblocfonctionnement>i{
+.textblocfonctionnement > div > i{
 	color: gray;
 }
 .fonctionnementnombre{
@@ -180,7 +188,7 @@ footer{
 	width: 100%;
 	background-color: black;
 	color: white;
-	padding-left: 20px;
+	
 	padding-top: 30px;
 	padding-bottom: 30px;
 
@@ -204,4 +212,9 @@ footer>img {
 	font-size: 25px;
 	padding-left: 20px;
 	margin-top: 50px;
+}
+
+.imagerestaurantdeux{
+	width: 100%;
+	height: 200px;
 }
