@@ -56,6 +56,7 @@ body, html{
 	margin-top: 15px;
 
 
+
 }
 
 .decouverte{
@@ -77,6 +78,8 @@ body, html{
 	font-weight: bold;
 	padding-left: 20px;
 	font-size: 25px;
+	margin-top: 50px;
+
 	
 }
 .blocfonctionnement{
@@ -89,8 +92,14 @@ body, html{
 	position: relative;
 
 }
+
 .textblocfonctionnement{
 	font-weight: bold;
+	margin-left: 10%;
+
+}
+.textblocfonctionnement>i{
+	color: gray;
 }
 .fonctionnementnombre{
 	position: absolute;
@@ -120,6 +129,12 @@ body, html{
 	display: flex;
 	justify-content: space-between;
 }
+.coeur{
+	margin-top: auto;
+	margin-bottom: auto;
+	padding-right: 20px;
+	font-size: 35px;
+}
 .newRestaurant {
 	display: block;
 	text-align: center;
@@ -143,18 +158,31 @@ input{
 .name{
 	font-weight: bold;
 	color: black;
+	font-size: 20px;
+	padding-left: 10px;
+	margin-bottom: 10px;
 
 }
+.spe{
+	font-size: 20px;
+	padding-left: 10px;
+	margin-top: 10px;
+}
+
 .lienrestaurants{
 	width: 100%;
 }
 .Restaurant{
 	width: 100%;
 }
+
 footer{
 	width: 100%;
 	background-color: black;
 	color: white;
+	padding-left: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 
 }
 footer>img {
@@ -175,4 +203,5 @@ footer>img {
 	font-weight: bold;
 	font-size: 25px;
 	padding-left: 20px;
+	margin-top: 50px;
 }
