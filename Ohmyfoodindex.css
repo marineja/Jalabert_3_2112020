@@ -136,17 +136,46 @@ body, html{
 .restaurantLink > div {
 	display: flex;
 	justify-content: space-between;
-}
-.coeur{
-	margin-top: auto;
-	margin-bottom: auto;
-	padding-right: 20px;
-	font-size: 30px;
+	align-items: center;
 }
 
-.coeur :hover{
-	background-color: #9356DC;
+.conteneurcoeur{
+	
+	position: relative;
+	height: 50px;
+	width: 50px;
+
 }
+
+.coeur{
+	display: block;
+	font-size: 30px;
+	position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    transition: 0.3s;
+    background: -webkit-linear-gradient(#9356DC, #FF79DA );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+.coeur:hover{
+	opacity: 1;
+}
+.coeur:hover ~ .coeur2 {
+	opacity: 0;
+}
+.coeur2{
+	font-size: 30px;
+	position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    display: block;
+}
+
 .newRestaurant {
 	display: block;
 	text-align: center;
@@ -192,14 +221,17 @@ footer{
 	width: 100%;
 	background-color: black;
 	color: white;
-	
+	display: flex;
+	justify-content: center;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	padding-left: 20px;
 
 }
 footer>img {
 	width: 30%;
+}
+.basdepage{
+	width: 90%;
 }
 .hautdelapage{
 	width: 100%;

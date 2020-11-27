@@ -40,13 +40,33 @@ body, html{
 	left: 0px;
 	z-index: 0;
 }
+.titre{
+	display: flex;
+	flex-direction: row;
+	padding-top: 20px;
+	justify-content: space-between;
+	padding-right: 30px;
+	padding-left: 10px;
+}
+.titre>p{
+	font-weight: bold;
+}
 .contenermenu{
 	z-index: 10px;
 	position: relative;
 	width: 100%;
-	background-color: white;
+	background-color: #E6E9EE;
 	margin-top: 150px;
 	border-radius: 20px;
+}
+.lesplats{
+	background-color: white;
+}
+.blocplats>p{
+	font-size: 1px;
+}
+.Plats{
+	font-weight: bold;
 }
 footer{
 	width: 100%;
