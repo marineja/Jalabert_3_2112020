@@ -143,6 +143,7 @@ body, html{
 	right: 20px;
 	transition: 1s;
 	font-weight: bold;
+	font-size: 14px;
 	color: #2F4F4F;
 }
 .lesplats:hover > .prix{
@@ -225,7 +226,7 @@ footer>img {
 	width: 100%;
 }
 .carre{
-	height: 80px;
+	height: 70px;
 	width: 100px;
 	background-color: #99E2D0;
 	position: absolute;
