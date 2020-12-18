@@ -58,21 +58,21 @@ body, html{
 .titre>p{
 	font-weight: bold;
 	font-family: "Shrikhand-Regular";
-	font-size:30px;
+	font-size:27px;
 	margin-bottom: 0px;
 }
 .conteneurcoeur{
 	
 	position: relative;
-	height: 50px;
-	width: 50px;
+	height: 40px;
+	width: 40px;
 	margin-top: 30px;
 
 
 }
 .coeur{
 	display: block;
-	font-size: 30px;
+	font-size: 26px;
 	position: absolute;
     top: 0;
     left: 0;
@@ -92,7 +92,7 @@ body, html{
 	opacity: 0;
 }
 .coeur2{
-	font-size: 30px;
+	font-size: 26px;
 	position: absolute;
     top: 0;
     left: 0;
@@ -115,6 +115,7 @@ body, html{
 }
 .titrestyledeplat>p{
 	margin-bottom: 0px;
+	font-size: 20px,
 
 }
 .trait{
@@ -179,6 +180,7 @@ body, html{
 	width: 300px;
 	font-size: 14px;
 }
+
 .nomplats{
 	margin-top: 15px;
 	margin-left: 10px;
