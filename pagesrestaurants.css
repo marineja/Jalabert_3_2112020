@@ -12,6 +12,10 @@ body, html{
 	font-family: Roboto;
 
 }
+section{
+	width: 100%;
+    background-color: #F5F5F5;
+}
 .page{
 	
 	width: 100%;
@@ -46,6 +50,7 @@ body, html{
 	top: 65px;
 	left: 0px;
 	z-index: 0;
+	object-fit: cover;
 }
 .titre{
 	display: flex;
@@ -104,7 +109,6 @@ body, html{
 	z-index: 10px;
 	position: relative;
 	width: 100%;
-	background-color: #F5F5F5;
 	margin-top: 185px;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
@@ -115,7 +119,7 @@ body, html{
 }
 .titrestyledeplat>p{
 	margin-bottom: 0px;
-	font-size: 20px,
+	font-size: 20px;
 
 }
 .trait{
@@ -205,6 +209,7 @@ footer{
 }
 .lienrestaurants{
 	width: 100%;
+	padding-bottom: 60px;
 
 }
 input{
@@ -255,9 +260,7 @@ footer>img {
 	transform: rotate(350deg);
 }
 
-.contenermenu{
-	padding-bottom: 70px;
-}
+
 .contact{
 	color: white;
 	text-decoration: none;

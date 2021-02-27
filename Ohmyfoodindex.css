@@ -275,6 +275,7 @@ footer>img {
 @keyframes animeloader {
 	0%{
 		opacity: 1;
+		
 	}
 	70%{
 		opacity: 1;
