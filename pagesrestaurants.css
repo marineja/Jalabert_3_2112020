@@ -12,9 +12,17 @@ body, html{
 	font-family: Roboto;
 
 }
-section{
+
+
+.conteneurprincipal{
 	width: 100%;
     background-color: #F5F5F5;
+    z-index: 10;
+	position: relative;
+	width: 100%;
+	margin-top: 185px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
 .page{
 	
@@ -64,7 +72,8 @@ section{
 	font-weight: bold;
 	font-family: "Shrikhand-Regular";
 	font-size:27px;
-	margin-bottom: 0px;
+	text-align: center;
+
 }
 .conteneurcoeur{
 	
@@ -83,7 +92,7 @@ section{
     left: 0;
     z-index: 10;
     opacity: 0;
-    transition: 0.3s;
+    transition: 3s;
     background: -webkit-linear-gradient(#9356DC, #FF79DA );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -105,14 +114,7 @@ section{
     display: block;
   
 }
-.contenermenu{
-	z-index: 10px;
-	position: relative;
-	width: 100%;
-	margin-top: 185px;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
-}
+
 .titrestyledeplat{
 	padding-left: 20px;
 	margin-top: 40px;
@@ -253,7 +255,7 @@ footer>img {
 }
 
 .carre>i{
-	transition: rotate(0deg);
+	transform: rotate(0deg);
 	transition: 1s;
 }
 .lesplats:hover > .carre >i{

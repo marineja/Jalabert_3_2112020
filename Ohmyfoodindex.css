@@ -155,7 +155,7 @@ body, html{
     left: 0;
     z-index: 10;
     opacity: 0;
-    transition: 0.3s;
+    transition: 3s;
     background: -webkit-linear-gradient(#9356DC, #FF79DA );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
