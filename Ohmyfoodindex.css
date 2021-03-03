@@ -342,3 +342,23 @@ footer>img {
   height: 50%;
   width: 50%;
 }
+
+
+@media screen and (min-width: 557px){
+	.deuxpremierrestaux{
+		display: flex;
+		flex-direction: row;
+	}
+	.deuxdernierrestaux{
+		display: flex;
+		flex-direction: row;
+	}
+	.blocfonctionnement{
+		margin-right: 30%;
+		margin-left: 30%;
+	}
+	.restaurantLink{
+		margin: 30px;
+	}
+	
+}
