@@ -98,7 +98,6 @@ body, html{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
    
-   
 }
 .coeur:hover{
 	opacity: 1;
@@ -311,7 +310,7 @@ footer>img {
 	
 	.imagerestaurantdeux{
 		height: 250px;
-		top: 150px;
+		top: 150px;}
 	
 		
 }
